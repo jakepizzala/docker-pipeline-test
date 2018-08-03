@@ -6,7 +6,7 @@ pipeline {
 	stages {
 		stage('Test') {
 		steps {
-			sh 'phpunit /vertex/tests'
+			sh 'phpunit /vertex/tests/.'
 			}
 		}
 	}
