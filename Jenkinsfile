@@ -10,4 +10,9 @@ pipeline {
 			}
 		}
 	}
+	post {
+		failure {
+			junit 'build/reports/**/*.xml'
+		}
+	}
 }

@@ -9,6 +9,6 @@ final class secondTest extends TestCase
 	}
 
 	public function testSecondTestFail() {
-		$this->assertTrue(true);
+		$this->assertTrue(false);
 	}
 }
